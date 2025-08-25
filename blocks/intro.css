@@ -1,0 +1,71 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 92px;
+  max-width: 830px;
+}
+
+.intro__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+}
+
+.intro__quote {
+  margin-top: 40px;
+  margin-right: 90px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.intro__quote-author {
+  margin-top: 10px;
+  margin-right: 90px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: right;
+}
+
+.intro__text {
+  margin-top: 32px;
+  margin-right: 90px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 24px;
+  }
+
+  .intro__title {
+    font-size: 45px;
+  }
+
+  .intro__quote {
+    margin-right: 0;
+  }
+
+  .intro__quote-author {
+    margin-right: 0;
+  }
+
+  .intro__text {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    padding: 0 16px;
+    margin-top: 64px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+  }
+}

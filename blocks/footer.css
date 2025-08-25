@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+}
+
+.footer__copyright {
+  margin: 92px auto 24px;
+  font-size: 14px;
+}
