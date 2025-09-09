@@ -3,6 +3,7 @@
   flex-direction: column;
   margin-top: 92px;
   max-width: 830px;
+  padding: 0 148px;
 }
 
 .intro__title {

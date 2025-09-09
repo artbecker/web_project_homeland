@@ -2,6 +2,6 @@
 
 # Página sobre as cidades dos membros da TripleTen
 
-# Utilização de consultas de mídia para diferentes tamanhos de tela e dispositivos; design responsivo
+# Utilização de consultas de mídia para diferentes tamanhos de tela e dispositivos; design responsivo; display grid; sombras e gradientes.
 
 # link: https://artbecker.github.io/web_project_homeland/

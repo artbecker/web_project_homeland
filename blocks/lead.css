@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 90px;
+  padding: 0 148px;
 }
 
 .lead__title {
@@ -25,9 +26,14 @@
 .lead__image {
   margin: 64px auto 0;
   width: 100%;
+  box-shadow: 10px 10px 25px 0px #00000080;
 }
 
 @media screen and (max-width: 1024px) {
+  .lead {
+    padding: 0;
+  }
+
   .lead__title {
     padding: 0 24px;
     font-size: 75px;
